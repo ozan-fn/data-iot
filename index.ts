@@ -8,7 +8,7 @@ const API_KEY = process.env.API_KEY;
 
 app.use(express.json());
 
-app.post("/", (req, res) => {
+app.get("/", (req, res) => {
 	res.send("OK");
 });
 
